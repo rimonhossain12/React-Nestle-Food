@@ -11,7 +11,14 @@ const FoodShow = (pros) => {
                 <p>{strCategory}</p>
                 <p>{strCategoryDescription.slice(0, 120)}</p>
             </div>
-            <button>add to cart</button>
+            <div className="btn-style">
+                <div className="first-button">
+                    <button>add to cart</button>
+                </div>
+                <div className="second-button">
+                    <button>show details</button>
+                </div>
+            </div>
         </div>
     );
 };

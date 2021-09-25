@@ -22,3 +22,7 @@
     border: 1px solid gray;
     cursor: pointer;
 }
+.btn-style {
+    display: flex;
+    justify-content: space-evenly;
+}
