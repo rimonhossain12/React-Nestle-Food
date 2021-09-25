@@ -28,8 +28,8 @@
 }
 
 @media screen and (max-width: 570px) {
-
-    .cart-conainer {
-        width: 100%px;
+    .food-list {
+        display: flex;
+        flex-wrap: wrap;
     }
-    }
+}

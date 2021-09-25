@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './FoodShow.css';
-import './FoodShow.css';
+
 const FoodShow = (props) => {
     // console.log(props);
     const carIcon = <FontAwesomeIcon icon={faShoppingCart} />
