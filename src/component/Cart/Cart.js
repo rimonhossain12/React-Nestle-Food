@@ -5,13 +5,17 @@ import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
 const Cart = (props) => {
     const fontIcon = <FontAwesomeIcon icon={faShoppingCart} />
-    const { strCategory } = props.cart;
-    console.log(props.cart)
+    const { cart } = props;
+    console.log(props);
+    // console.log(props.cart)
     return (
         <div className="cart-conainer">
 
             <h4>Order Details {fontIcon}</h4>
-            <p>Name: {strCategory}</p>
+            {
+                cart?.map(c => <li>{c.strCategory}</li>)
+            }
+            {/* <p>Name: {strCategory}</p> */}
             <button className="cart-button">show details</button>
         </div>
     );

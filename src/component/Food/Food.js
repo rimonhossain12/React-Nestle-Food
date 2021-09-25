@@ -13,8 +13,9 @@ const Food = () => {
 
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
-        console.log('clicked');
+        console.log();
         setCart(newCart);
+        console.log(cart);
     }
     return (
 

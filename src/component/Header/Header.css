@@ -7,14 +7,14 @@
     }
 
     .header nav {
-        background-color: lightgray;
+        background-color: black;
         line-height: 50px;
     }
 
     .header nav a {
         text-decoration: none;
         margin-right: 20px;
-        color: black;
+        color: white;
         font-size: 20px;
         padding: 10px;
     }
@@ -23,4 +23,20 @@
         background-color: cornflowerblue;
         border-radius: 5px;
         cursor: pointer;
+}
+.input-field {
+    text-align: center;
+    background-color: rgb(14, 13, 13)
+}
+
+.input-field input {
+    line-height: 5px;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+
 }
