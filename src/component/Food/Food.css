@@ -1,0 +1,17 @@
+.food-div {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 10%;
+}
+
+
+.food-list {
+    border-right: 1px solid lightgray;
+    margin-right: 20px;
+}
