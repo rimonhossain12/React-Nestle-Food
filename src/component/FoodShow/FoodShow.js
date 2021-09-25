@@ -1,7 +1,8 @@
 import React from 'react';
 import './FoodShow.css';
-const FoodShow = (pros) => {
-    const { idCategory, strCategory, strCategoryThumb, strCategoryDescription } = pros.food;
+const FoodShow = (props) => {
+    // console.log(props);
+    const { idCategory, strCategory, strCategoryThumb, strCategoryDescription } = props.food;
     return (
         <div className="cart">
             <div className="cart-img">
@@ -13,7 +14,7 @@ const FoodShow = (pros) => {
             </div>
             <div className="btn-style">
                 <div className="first-button">
-                    <button>add to cart</button>
+                    <button onClick={() => props.handleAddToCart(props.handleAddToCart.strCategory)}>add to cart</button>
                 </div>
                 <div className="second-button">
                     <button>show details</button>
