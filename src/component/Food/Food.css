@@ -1,3 +1,8 @@
+.food-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px 20px;
+}
 .food-div {
     margin-top: 10px;
     display: grid;
@@ -8,10 +13,13 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin-left: 10%;
+    margin-right: 5%;
 }
 
 
 .food-list {
     border-right: 1px solid lightgray;
-    margin-right: 20px;
+    margin-right: 10px;
+    padding-right: 10px;
 }
+
