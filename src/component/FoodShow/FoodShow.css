@@ -26,3 +26,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+.catogories-style {
+    color: black;
+    font-weight: 600;
+}
